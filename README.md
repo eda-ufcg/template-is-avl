@@ -4,7 +4,7 @@
 * Email (@ccc): 
 * Matrícula: 
 
-# Roteiro: BST
+# Roteiro: isAVL
 
 ## O template
 
@@ -24,7 +24,8 @@
 
 ## A tarefa. 
 
-Implemente os métodos marcados com TODO. Implemente também os testes para esses métodos.
+Você deve implementar o método isAVL, que verifica se uma BST é AVL, dada a definição que vimos em sala de aula. Para isso, você vai precisar implementar alguns métodos auxiliares, que 
+também estão na classe BST.
 
 ## Entregando o lab
 

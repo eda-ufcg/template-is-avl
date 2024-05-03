@@ -45,13 +45,15 @@ public class RoteiroTest {
     	bst.add(6);
     	assertFalse(bst.isAVL());
 
+        bst = new BST();
     	values = new int[]{90,13,4,8,37,16,24,44,
     		42,88,51,72,81,84,92};
     	for (int i : values)
     		bst.add(i);
 		assertFalse(bst.isAVL());
 
-		values = new int[]{23,35,42,54,56,61};
+        bst = new BST();
+		values = new int[]{23, 12, 40, 9, 25, 60, 50};
     	for (int i : values)
     		bst.add(i);
 		assertTrue(bst.isAVL());
